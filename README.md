@@ -20,6 +20,12 @@ Informe no package.json qual o arquivo que dá inicío à aplicação:
     "start": "node hello.js"
 }
 ´´´
+Heroku utiliza um arquivo Procfile para configuração. Crie e adicione:
+
+´´´
+web: node hello.js
+´´´
+
 Para criar um app:
 
 - Logue no terminal: heroku login
