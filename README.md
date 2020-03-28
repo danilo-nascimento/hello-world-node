@@ -30,6 +30,8 @@ Para criar um app:
 
 - Logue no terminal: heroku login
 - Execute o comando: heroku create
+- Para alterar a url do app execute: heroku rename \<new name\>
+- Como tudo configurado, execute: git push heroku master
 
 ## NPM
 
