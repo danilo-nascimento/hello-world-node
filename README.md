@@ -2,11 +2,12 @@
 
 ## Node JS - Módulos Básicos
 
-´´´
+```javascript
 require('http')
 require('url')
 require('fs')
-´´´
+```
+
 Qual a porta padrão? - 8080
 
 ## Heroku
@@ -15,16 +16,17 @@ O Heroku poderá utilizar o arquivo package.json do NPM como referência
 
 Informe no package.json qual o arquivo que dá inicío à aplicação:
 
-´´´
+```javascript
 "scripts":{
     "start": "node hello.js"
 }
-´´´
+```
+
 Heroku utiliza um arquivo Procfile para configuração. Crie e adicione:
 
-´´´
+```
 web: node hello.js
-´´´
+```
 
 Para criar um app:
 
